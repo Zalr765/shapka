@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +11,53 @@
 </head>
 <body>
 	<header class="header">
-		
+		<div class="header-top">
+			<div class="header-container">
+				<div class="header-top__block">
+					<div class="header-top__geo">
+						<img src="./assets/geo-pic.svg" alt="" class="header-top__geo-pic">
+						<h2 class="header-top__geo-txt">Махачкала</h2>
+					</div>
+					<nav class="header-top__nav">
+						<ul class="header-top__nav-list">
+							<li class="header-top__nav-link"><a href="#">Магазины</a></li>
+							<li class="header-top__nav-link"><a href="#">Покупателям</a><img src="./assets/strelka.svg" alt="" class="header-top__nav-pic"></li>
+							<li class="header-top__nav-link"><a href="#">Юредическим лицам</a><img src="./assets/strelka.svg" alt="" class="header-top__nav-pic"></li>
+						</ul>
+					</nav>
+				</div>
+				<a class="header-top__phone" href="tel:8-800-999-99-99">8-800-999-99-99 (c 03:00 до 22:00)</a>
+			</div>
+		</div>
+		<div class="header-bot header-container">
+			<div class="header-bot__blcok">
+				<img src="./assets/logo.svg" alt="" class="header-bot__logo">
+				<form action="" class="header-bot__form">
+					<input  placeholder="Быстрый поиск" type="text" class="header-bot__form-input">
+					<button class="header-bot__form-btn"><img src="./assets/search.svg" alt=""></button>
+				</form>
+				<ul class="header-bot__list">
+					<li class="header-bot__list-item"><img class="header-bot__list-pic" src="./assets/lover.svg" alt="" class="header-bot__list-item"><a href="#">Избранное</a><h2 class="header-bot__list-mes">3</h2></li>
+					<li class="header-bot__list-item"><img class="header-bot__list-pic" src="./assets/srav.svg" alt="" class="header-bot__list-item"><a href="#">Сравнить</a></li>
+					<li class="header-bot__list-item"><img class="header-bot__list-pic" src="./assets/shopping-cart.svg" alt="" class="header-bot__list-item"><a href="#">Корзина</a><h2 class="header-bot__list-mes">7</h2></li>
+				</ul>
+			</div>
+			<div class="header-bot__blcok">
+				<button class="header-bot__blcok-burger">
+					<img src="./assets/nav/burger.svg" alt="" class="header-bot__blcok-burger-pic">
+					<h2 class="header-bot__blcok-burger-txt">Каталог</h2>
+				</button>
+				<nav class="header-bot__blcok-nav">
+					<ul class="header-bot__blcok-list">
+						<li class="header-bot__blcok-list-item"><img src="./assets/nav/agenda.svg" alt="" class="header-bot__blcok-list-pic"><a href="#"class="header-bot__blcok-list-txt">Бумажная продукция<a></li>
+						<li class="header-bot__blcok-list-item"><img src="./assets/nav/briefcase.svg" alt="" class="header-bot__blcok-list-pic"><a href="#"class="header-bot__blcok-list-txt">Товары для школы</a></li>
+						<li class="header-bot__blcok-list-item"><img src="./assets/nav/stationery.svg" alt="" class="header-bot__blcok-list-pic"><a href="#" class="header-bot__blcok-list-txt">Товары для творчества</a></li>
+						<li class="header-bot__blcok-list-item"><img src="./assets/nav/abacus.svg" alt="" class="header-bot__blcok-list-pic"><a href="#" class="header-bot__blcok-list-txt">Товары для торговли</a></li>
+						<li class="header-bot__blcok-list-item"><img src="./assets/nav/discount.svg" alt="" class="header-bot__blcok-list-pic"><a href="#" class="header-bot__blcok-list-txt">Скидки и акции</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
 	</header>
 </body>
 </html>
